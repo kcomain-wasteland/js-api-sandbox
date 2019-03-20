@@ -10,8 +10,8 @@ if (window.File && window.FileReader && window.Blob) {
 } else {
   alert('The File APIs are not fully supported in this browser.');
 }
+//OOF 
 
-
-let versionNumber=Number(1)
+let versionNumber=Number(7)
 const appDiv = document.getElementById('version');
 appDiv.innerHTML = versionNumber;
