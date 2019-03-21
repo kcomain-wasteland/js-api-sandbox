@@ -3,15 +3,5 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "async": "2.6.2",
-    "js-yaml": "^3.13.0",
-    "lodash": "4.17.11",
-    "marker": "0.1.2",
-    "minimisty": "1.1.1",
-    "mrkdwn": "1.0.0",
-    "opn": "5.5.0",
-    "rfile": "1.0.0",
-    "standard": "12.0.1",
-    "temp": "0.9.0"
   }
 }
