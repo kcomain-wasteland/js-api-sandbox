@@ -33,7 +33,3 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 //Time to have a rest......(2019/03/20)
 //Finally, can use WebHooks.
  setHtmlValue("version",9);
-
-
-xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-xmlhttp.send(JSON.stringify({ "email": "hello@user.com", "response": { "name": "Tester" } }));
