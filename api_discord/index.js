@@ -12,6 +12,10 @@ if (window.File && window.FileReader && window.Blob) {
 }
 //OOF 
 
-let versionNumber=Number(7)
+let versionNumber=Number(9)
+function setInnerHTML(id,value){
+  
+}
 const appDiv = document.getElementById('version');
 appDiv.innerHTML = versionNumber;
+document.getElementById('attribute').innerHTML = "https://loading.io/icon/qau8ei";
