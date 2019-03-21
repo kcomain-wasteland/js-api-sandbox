@@ -1,3 +1,3 @@
-function setInnerHTML(id,value){
+function setHtmlValue(id,value){
   document.getElementById(id).setInnerHTML(value)
 }

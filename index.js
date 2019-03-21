@@ -6,7 +6,6 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 */
-let versionNumber=Number(7)
-const verDove = document.getElementById('version');
-verDove.innerHTML = versionNumber;
+import './functions.js'
 //Time to have a rest......(2019/03/20)
+setHtmlValue(version,)
