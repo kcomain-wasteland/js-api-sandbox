@@ -2,5 +2,7 @@
   "name": "js-hdgb4y",
   "version": "0.0.1",
   "private": false,
-  "dependencies": {}
+  "dependencies": {
+    "mrkdwn": "^1.0.0"
+  }
 }
