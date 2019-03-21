@@ -8,4 +8,4 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 */
 import './functions.js'
 //Time to have a rest......(2019/03/20)
-setHtmlValue(version,)
+setHtmlValue(version,4)
