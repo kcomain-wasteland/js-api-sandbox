@@ -7,16 +7,17 @@ function setHtmlValue(id,value){     //Proven Work
   document.getElementById(id).innerHTML = value;
   return
 }
-const datasend = false
-function webhook(mode,datasend,url){          //Proven Work
+function webhook(mode,url){          //Proven Work
   const http = new XMLHttpRequest();
   http.open(mode, url);
-  if (datasend){
-    
-  }
+  if (mode!="GET"){
+    prompt("JSON Data")
+  } else {
   http.send();
-  http.onreadystatechange=(e)=>{
-    console.log(http.responseText)
+    http.onreadystatechange=(e)=>{
+      console.log(http.responseText)
+      return http.responseText
+    }
   }
 }
 
