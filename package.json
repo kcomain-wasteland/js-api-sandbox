@@ -3,5 +3,6 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
