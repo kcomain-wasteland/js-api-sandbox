@@ -15,11 +15,11 @@ function webhook(mode,url){          //Proven Work
     console.log(http.responseText)
   }
 }
-/*
+/
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
-*/
+
 
 //Time to have a rest......(2019/03/20)
 //Finally, can use WebHooks.
- setHtmlValue("version",8);
+ setHtmlValue("version",9);
