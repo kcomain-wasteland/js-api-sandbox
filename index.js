@@ -1,7 +1,8 @@
 // Import stylesheets
 import './style.css';
-import './functions.mjs'
+import './functions.js'
 import 'jquery'
+var jque = require('jquery')
 // Write Javascript code!
 /*
 function setHtmlValue(id,value){     //Proven Work
@@ -15,6 +16,11 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 //Time to have a rest......(2019/03/20)
 //Finally, can use WebHooks.
- setHtmlValue("version",9);
 
 
+// jQuery
+jque.$.getScript('./functions.js', function(){
+    // script is now loaded and executed.
+    // put your dependent JS here.
+     setHtmlValue("version",9);
+});
