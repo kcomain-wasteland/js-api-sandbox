@@ -19,8 +19,3 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 
 // jQuery
-jque.$.getScript('./functions.js', function(){
-    // script is now loaded and executed.
-    // put your dependent JS here.
-     setHtmlValue("version",9);
-});

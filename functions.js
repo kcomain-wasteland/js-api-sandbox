@@ -1,15 +1,15 @@
-export function setHtmlValue(id,value){
+function setHtmlValue(id,value){
   document.getElementById(id).setInnerHTML(value);
   return
 }
 //Define commands and functions as below.
-export function foo(bar){
+function foo(bar){
   const foo="foo"
   const bar="bar"
   const par=bar
 }
 
-export function webhook(mode,url,variable){          //Proven Work
+function webhook(mode,url,variable){          //Proven Work
   const http = new XMLHttpRequest();
   http.open(mode, url);
   if (mode!="GET"){
