@@ -20,7 +20,10 @@ export function webhook(mode,url,variable){          //Proven Work
     console.log(http.responseText)
     return http.responseText
   } else {
-  http.send();
+    http.setRequestHeader("Access-Control-Allow-Headers",'X-PINGOTHER, Content-Type')
+    http.setRequestHeader("Access-Control-Allow-Origin",'*')
+    http.setRequestHeader("Access-Control-Allow-Methods",'POST, GET')
+    http.send();
     http.onreadystatechange=(e)=>{
       console.log(http.responseText)
       variable = http.responseText
@@ -28,3 +31,21 @@ export function webhook(mode,url,variable){          //Proven Work
     }
   }
 }
+
+function autoCldMsg(value){
+  fetch('https://llamalab.com/automate/cloud/message',{
+    method:'POST',
+    mode: 'no-cors',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      "secret": "2.gaBf8JXuGfk09ERyMlInE57gx4sMEVkT2yLJz-vtITc",
+      "to":"cheunghowui@gmail.com",
+      "device":null,
+      "priority":"normal",
+      "payload":'test'
+    })
+  })
+    .then(response => response.json())
+    .then(json => console.log(json));
+}
+//stor https://runkit.io/kcomain/api/branches/master
