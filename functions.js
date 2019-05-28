@@ -37,19 +37,13 @@ function autoCldMsg(value){
     method:'POST',
     mode: 'no-cors',
     headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify(
-{
-  "secret": "2.gaBf8JXuGfkO9ERyMlInE57gx4sMEVkT2yLJz-vtITc",
-  "to": "cheunghowui@gmail.com",
-  "device": null,
-  "priority": "normal",
-  "payload": "Hello World!"
-}
-
-
-
-)
-  })
+    body: JSON.stringify({
+      "secret": "2.gaBf8JXuGfkO9ERyMlInE57gx4sMEVkT2yLJz-vtITc",
+      "to": "cheunghowui@gmail.com",
+      "device": null,
+      "priority": "normal",
+      "payload": "Hello World!"
+      })})
     .then(response => response.json())
     .then(json => console.log(json));
 }
