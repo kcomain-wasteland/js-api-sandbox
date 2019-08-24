@@ -19,3 +19,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 
 // jQuery
+
+//back after months of hiatus
+//I am at 2019/08/24 when i came back... LOL
+//also i am going to abandon this project or whatever coz i am not feeling on continuing this thing for any longer rn, i might come back after yet another month or more... see yha syandebfsdIbdieb
